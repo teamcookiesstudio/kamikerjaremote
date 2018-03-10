@@ -19,8 +19,11 @@
       "testTsconfig": "tsconfig.spec.json",
       "prefix": "app",
       "styles": [
+        "../node_modules/normalize.css/normalize.css",
+        "../node_modules/typicons.font/src/font/typicons.css",
         "assets/css/flexboxgrid.min.css",
-        "styles.css"
+        "assets/css/fontello.css",
+        "style.css"
       ],
       "scripts": [],
       "environmentSource": "environments/environment.ts",

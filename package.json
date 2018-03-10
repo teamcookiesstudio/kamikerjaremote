@@ -1,38 +1,52 @@
 {
-  "name": "html5-sass-boilerplate",
-  "version": "1.0.0",
-  "description": "Simple HTML5 Sass Boilerplate",
-  "private": true,
+  "name": "ngx-kkr",
+  "version": "0.0.0",
+  "license": "MIT",
   "scripts": {
-    "dev": "gulp dev",
-    "build": "gulp build",
-    "bundle": "gulp bundle"
+    "ng": "ng",
+    "start": "ng serve",
+    "build": "ng build",
+    "test": "ng test",
+    "lint": "ng lint",
+    "e2e": "ng e2e"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/EmranAhmed/html5-sass-boilerplate"
-  },
-  "keywords": [],
-  "author": "Emran Ahmed",
-  "license": "GPL-2.0",
-  "bugs": {
-    "url": "https://github.com/EmranAhmed/html5-sass-boilerplate/issues/"
-  },
-  "homepage": "https://github.com/EmranAhmed/html5-sass-boilerplate/",
-  "devDependencies": {
-    "browser-sync": "^2.18.13",
-    "gulp": "^3.9.1",
-    "gulp-autoprefixer": "^4.0.0",
-    "gulp-line-ending-corrector": "^1.0.1",
-    "gulp-merge-media-queries": "^0.2.1",
-    "gulp-notify": "^3.0.0",
-    "gulp-plumber": "^1.1.0",
-    "gulp-rename": "^1.2.2",
-    "gulp-sass": "^3.1.0",
-    "gulp-sourcemaps": "^2.6.1",
-    "gulp-uglifycss": "^1.0.9"
-  },
+  "private": true,
   "dependencies": {
-    "flexboxgrid": "^6.3.1"
+    "@angular/animations": "^5.0.0",
+    "@angular/common": "^5.0.0",
+    "@angular/core": "^5.0.0",
+    "@angular/forms": "^5.0.0",
+    "@angular/http": "^5.0.0",
+    "@angular/platform-browser": "^5.0.0",
+    "@angular/platform-browser-dynamic": "^5.0.0",
+    "@angular/router": "^5.0.0",
+    "core-js": "^2.4.1",
+    "normalize.css": "^8.0.0",
+    "rxjs": "^5.5.2",
+    "typicons.font": "^2.0.9",
+    "zone.js": "^0.8.14"
+  },
+  "devDependencies": {
+    "@angular-devkit/core": "^0.4.5",
+    "@angular/cli": "1.5.2",
+    "@angular/compiler": "^5.2.8",
+    "@angular/compiler-cli": "^5.0.0",
+    "@angular/language-service": "^5.0.0",
+    "@types/jasmine": "~2.5.53",
+    "@types/jasminewd2": "~2.0.2",
+    "@types/node": "~6.0.60",
+    "codelyzer": "^4.2.1",
+    "jasmine-core": "~2.6.2",
+    "jasmine-spec-reporter": "~4.1.0",
+    "karma": "~1.7.0",
+    "karma-chrome-launcher": "~2.1.1",
+    "karma-cli": "~1.0.1",
+    "karma-coverage-istanbul-reporter": "^1.2.1",
+    "karma-jasmine": "~1.1.0",
+    "karma-jasmine-html-reporter": "^0.2.2",
+    "protractor": "~5.1.2",
+    "ts-node": "~3.2.0",
+    "tslint": "~5.7.0",
+    "typescript": "~2.4.2"
   }
 }
