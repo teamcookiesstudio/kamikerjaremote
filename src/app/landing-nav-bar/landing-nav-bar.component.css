@@ -1,0 +1,38 @@
+.top-bar {
+  max-width: 1000px;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  padding: 1rem 0; }
+
+.logo {
+  padding: 0 2rem;
+  border-right: 1px solid #aa0c1d; }
+
+.menus {
+  flex: 1 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  .menus ul {
+    list-style: none;
+    margin: 0;
+    padding: 0 .5rem; }
+    .menus ul li {
+      display: inline-flex; }
+      .menus ul li a {
+        text-transform: uppercase;
+        text-decoration: none;
+        color: #ffffff;
+        font-size: 14px;
+        padding: .5rem 1rem; }
+  .menus .actions {
+    display: flex;
+    align-items: center; }
+    .menus .actions span {
+      margin: 0 .5rem; }
+    .menus .actions .btn-thin {
+      color: #ffffff;
+      font-size: inherit; }
+
+/*# sourceMappingURL=landing-nav-bar.component.css.map */

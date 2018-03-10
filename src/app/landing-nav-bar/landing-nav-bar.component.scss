@@ -1,0 +1,47 @@
+@import "../../variables";
+
+.top-bar {
+  max-width: $max-width;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  padding: 1rem 0;
+}
+
+.logo {
+  padding: 0 2rem;
+  border-right: 1px solid #aa0c1d;
+}
+
+.menus {
+  flex: 1 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0 .5rem;
+    li {
+      display: inline-flex;
+      a {
+        text-transform: uppercase;
+        text-decoration: none;
+        color: #ffffff;
+        font-size: 14px;
+        padding: .5rem 1rem;
+      }
+    }
+  }
+  .actions {
+    display: flex;
+    align-items: center;
+    span {
+      margin: 0 .5rem;
+    }
+    .btn-thin {
+      color: #ffffff;
+      font-size: inherit;
+    }
+  }
+}

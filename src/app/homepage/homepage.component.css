@@ -1,0 +1,136 @@
+header {
+  background: linear-gradient(to top, #c9182c, #de3f52);
+  color: #ffffff;
+  text-align: center;
+  height: 100%;
+  position: relative; }
+  header > .row {
+    margin: 7rem 0; }
+    header > .row h1 {
+      font-size: 40px;
+      font-weight: 600; }
+
+section .container > h2 {
+  text-align: center;
+  margin-bottom: 48px;
+  color: #404040; }
+section .container h3 {
+  color: #c9182c !important;
+  font-size: 40px;
+  font-weight: 400; }
+  section .container h3 strong {
+    font-weight: 600; }
+
+.search-box {
+  margin-top: 5rem; }
+
+.wave-brand {
+  background: url("../../assets/images/kkrwave.svg");
+  height: 160px;
+  width: 100%;
+  -webkit-transform: translateY(5px);
+  -moz-transform: translateY(5px);
+  -ms-transform: translateY(5px);
+  -o-transform: translateY(5px);
+  transform: translateY(5px); }
+
+.about-point {
+  display: flex;
+  align-items: start; }
+  .about-point > .circle {
+    flex: 1 0 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 48px;
+    background: #c9182c;
+    border-radius: 50%;
+    color: #ffffff;
+    margin-right: 36px;
+    font-size: 18px; }
+  .about-point-details {
+    margin-bottom: 26px; }
+    .about-point-details h4 {
+      color: #c9182c;
+      margin: 0;
+      font-size: 20px; }
+    .about-point-details p {
+      font-size: 18px;
+      color: rgba(0, 0, 0, 0.5); }
+
+.values {
+  text-align: center;
+  padding: 2rem;
+  box-sizing: padding-box; }
+  .values h5 {
+    color: #555555;
+    font-size: 24px;
+    margin: 16px 0 8px; }
+  .values p {
+    font-size: 18px;
+    color: rgba(85, 85, 85, 0.5);
+    font-weight: 400; }
+
+.curved {
+  clip-path: url("../../assets/images/background.svg");
+  background: linear-gradient(to top, #c9182c, #de3f52);
+  margin-top: 76px;
+  text-align: center;
+  color: #ffffff; }
+  .curved #curve_top {
+    width: 100%; }
+  .curved h2 {
+    font-size: 32px;
+    color: #ffffff !important; }
+
+.testimonials {
+  overflow-x: hidden; }
+  .testimonials ngx-carousel {
+    width: 120%;
+    padding-bottom: 48px;
+    -webkit-transform: translateX(-10%);
+    -moz-transform: translateX(-10%);
+    -ms-transform: translateX(-10%);
+    -o-transform: translateX(-10%);
+    transform: translateX(-10%); }
+  .testimonials ngx-item {
+    overflow: -webkit-paged-x; }
+  .testimonials .card {
+    background: #FFFFFF;
+    padding: 1rem 1rem 5rem;
+    margin: 1rem;
+    position: relative;
+    overflow: visible;
+    box-shadow: 0 20px 40px 0 rgba(1, 1, 1, 0.05), 0 10px 15px 0 rgba(1, 1, 1, 0.1); }
+    .testimonials .card p {
+      color: #404040;
+      font-size: 18px; }
+    .testimonials .card strong {
+      color: #404040; }
+    .testimonials .card .testmonial-img {
+      border-radius: 10rem;
+      height: 64px;
+      width: 64px;
+      border: 6px solid #f5a623;
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      -webkit-transform: translate(-50%, 50%);
+      -moz-transform: translate(-50%, 50%);
+      -ms-transform: translate(-50%, 50%);
+      -o-transform: translate(-50%, 50%);
+      transform: translate(-50%, 50%); }
+  .testimonials .leftRs, .testimonials .rightRs {
+    display: none;
+    opacity: 0; }
+
+.bottom-pic {
+  background: url("../../assets/images/remote-worker-kkr.png") no-repeat top;
+  background-size: cover;
+  height: 400px;
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  overflow-y: hidden; }
+
+/*# sourceMappingURL=homepage.component.css.map */

@@ -1,0 +1,102 @@
+<header>
+  <app-landing-nav-bar></app-landing-nav-bar>
+  <div class="row center-xs">
+    <div class="col-xs-12 col-md-6 center-xs">
+      <h1>Indonesian Remote Worker</h1>
+      <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      <div class="input-control search-box">
+        <i class="icon-search"></i>
+        <input type="text" id="search" placeholder="Cari Freelancer Anda di sini">
+        <button class="btn btn-primary" type="submit">Cari</button>
+      </div>
+    </div>
+  </div>
+  <div class="wave-brand"></div>
+</header>
+<section>
+  <div class="container">
+    <h2>Who are we?</h2>
+    <div class="row middle-xs">
+      <div class="col-xs-12 col-md-6">
+        <h3>The <strong>Biggest</strong> Freelancer
+          community in Indonesia</h3>
+      </div>
+      <div class="col-xs-12 col-md-6">
+        <div class="about-point">
+          <div class="circle">1</div>
+          <div class="about-point-details">
+            <h4>Get Connected</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et.</p>
+          </div>
+        </div>
+        <div class="about-point">
+          <div class="circle">2</div>
+          <div class="about-point-details">
+            <h4>Share Experience</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et.</p>
+          </div>
+        </div>
+        <div class="about-point">
+          <div class="circle">3</div>
+          <div class="about-point-details">
+            <h4>Get Connected</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-md-4 values">
+        <img src="http://via.placeholder.com/250x250">
+        <h5>High Quality Skill</h5>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      </div>
+      <div class="col-xs-12 col-md-4 values card">
+        <img src="http://via.placeholder.com/250x250">
+        <h5>High Quality Skill</h5>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      </div>
+      <div class="col-xs-12 col-md-4 values">
+        <img src="http://via.placeholder.com/250x250">
+        <h5>High Quality Skill</h5>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="testimonials curved">
+  <svg version="1.1" id="curve_top" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1440 53.7" style="enable-background:new 0 0 1440 53.7;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;}
+</style>
+<path class="st0" d="M1440,0v29.5c-63.3,16.2-177.3,24.2-341.9,24.2c-246.9,0-427.4-38.8-755.3-40.6C219.3,12.4,105.1,16.7,0,26.1V0
+	H1440z"/>
+</svg>
+  <div class="container">
+    <div class="row center-xs">
+      <div class="col-xs-12 col-md-8">
+        <h2>What They Say?</h2>
+        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      </div>
+    </div>
+  </div>
+  <ngx-carousel [inputs]="carouselOne" (carouselLoad)="myfunc($event)">
+    <ngx-item NgxCarouselItem *ngFor="let i of [0,1,2,3,4,5,6,7,8,9]">
+      <div class="card" [id]="i">
+        <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua”</p>
+        <strong>David East</strong>
+        <img src="https://randomuser.me/api/portraits/women/17.jpg" class="testmonial-img">
+      </div>
+    </ngx-item>
+    <button NgxCarouselPrev class='leftRs'>&lt;</button>
+    <button NgxCarouselNext class='rightRs'>&gt;</button>
+  </ngx-carousel>
+  <div class="bottom-pic">
+    <div class="wave-brand"></div>
+  </div>
+</section>
