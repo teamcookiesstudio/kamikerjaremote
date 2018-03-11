@@ -8,6 +8,7 @@ import { HomepageComponent } from './homepage/homepage.component';
 import {AppRoutingModule} from './app-routing.module';
 import {NgxCarouselModule} from 'ngx-carousel';
 import { LoginComponent } from './login/login.component';
+import { RegisterComponent } from './register/register.component';
 
 
 @NgModule({
@@ -15,7 +16,8 @@ import { LoginComponent } from './login/login.component';
     AppComponent,
     LandingNavBarComponent,
     HomepageComponent,
-    LoginComponent
+    LoginComponent,
+    RegisterComponent
   ],
   imports: [
     BrowserModule,
