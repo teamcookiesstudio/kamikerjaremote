@@ -1,5 +1,11 @@
 @import "../../variables";
 
+nav {
+  &.colored {
+    background: $kkr-red-lighter;
+  }
+}
+
 .top-bar {
   max-width: $max-width;
   display: flex;
@@ -47,6 +53,14 @@
       font-size: inherit;
     }
   }
+}
+
+.logged-user {
+  height: 48px;
+  width: 48px;
+  border-radius: 100px;
+  object-fit: cover;
+  object-position: center;
 }
 
 @media only screen and (max-width: 768px) {

@@ -9,6 +9,10 @@ import {AppRoutingModule} from './app-routing.module';
 import {NgxCarouselModule} from 'ngx-carousel';
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
+import { SearchResultComponent } from './search-result/search-result.component';
+import { SearchResultItemComponent } from './search-result/search-result-item/search-result-item.component';
+import { UserProfileComponent } from './user-profile/user-profile.component';
+import { UserPortfolioItemComponent } from './user-profile/user-portfolio-item/user-portfolio-item.component';
 
 
 @NgModule({
@@ -17,7 +21,11 @@ import { RegisterComponent } from './register/register.component';
     LandingNavBarComponent,
     HomepageComponent,
     LoginComponent,
-    RegisterComponent
+    RegisterComponent,
+    SearchResultComponent,
+    SearchResultItemComponent,
+    UserProfileComponent,
+    UserPortfolioItemComponent
   ],
   imports: [
     BrowserModule,

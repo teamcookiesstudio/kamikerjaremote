@@ -21,6 +21,7 @@
       "styles": [
         "../node_modules/normalize.css/normalize.css",
         "../node_modules/typicons.font/src/font/typicons.css",
+        "../node_modules/ionicons/dist/css/ionicons.css",
         "assets/css/flexboxgrid.min.css",
         "assets/css/fontello.css",
         "style.css"

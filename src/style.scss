@@ -21,6 +21,7 @@ body {
   align-items: center;
   background: #fdfdfd;
   border-radius: 10rem;
+  border: 1px solid #e7e7e7;
   overflow: hidden;
   padding: 5px;
   label {
@@ -33,6 +34,7 @@ body {
     font-size: 18px;
     flex: 1 1 auto;
     padding: 0 .5rem;
+    background: transparent;
     &::placeholder {
       color: #bfbfbf;
     }
@@ -80,6 +82,13 @@ body {
     &:hover {
       background: darken(#3b5998, 5%);
     }
+  }
+  &-outline {
+    border: 1px solid #bfbfbf;
+  }
+  &-sm {
+    font-size: 14px;
+    color: #404040;
   }
 }
 

@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, Input, OnInit} from '@angular/core';
 
 @Component({
   selector: 'app-landing-nav-bar',
@@ -7,9 +7,18 @@ import { Component, OnInit } from '@angular/core';
 })
 export class LandingNavBarComponent implements OnInit {
 
+  @Input() hasBackground: false;
+  @Input() isLoggedIn: false; // temporary use only
+
   constructor() { }
 
   ngOnInit() {
+  }
+
+  background() {
+    if (this.hasBackground) {
+      return '$'
+    }
   }
 
 }

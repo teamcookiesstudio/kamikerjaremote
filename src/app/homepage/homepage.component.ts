@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import {NgxCarousel} from 'ngx-carousel';
+import {Router} from '@angular/router';
 
 @Component({
   selector: 'app-homepage',
@@ -10,7 +11,7 @@ export class HomepageComponent implements OnInit {
 
   public carouselOne: NgxCarousel;
 
-  constructor() { }
+  constructor(private router: Router) { }
 
   ngOnInit() {
     this.carouselOne = {
@@ -30,6 +31,10 @@ export class HomepageComponent implements OnInit {
 
   myfunc(event: Event) {
 
+  }
+
+  onSearch() {
+    this.router.navigateByUrl('/search');
   }
 
 }
