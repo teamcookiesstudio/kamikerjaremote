@@ -38,8 +38,11 @@ section {
 }
 
 .wave-brand {
-  background: url("../../assets/images/kkrwave.svg");
-  height: 160px;
+  background-image: url("../../assets/images/kkrwave.svg");
+  background-size: cover; 
+  height: 0;
+  padding: 0;
+  padding-bottom: calc(10% * 3/4);
   width: 100%;
   -webkit-transform: translateY(5px);
   -moz-transform: translateY(5px);
@@ -47,8 +50,11 @@ section {
   -o-transform: translateY(5px);
   transform: translateY(5px);
   &-red {
-    background: url("../../assets/images/wve1Copy2.svg");
-    height: 160px;
+    background-image: url("../../assets/images/wve1Copy2.svg");
+    background-size: cover;
+    height: 0;
+    padding: 0;
+    padding-bottom: calc(15% * 3/4);
     width: 100%;
     -webkit-transform: translateY(25px);
     -moz-transform: translateY(25px);
