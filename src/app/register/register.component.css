@@ -1,0 +1,108 @@
+section {
+  background: linear-gradient(to top, #c9182c, #de3f52);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column; }
+
+.container {
+  padding: 0; }
+
+.card {
+  background-color: #FFFFFF;
+  width: auto;
+  padding: 2rem; }
+
+.container {
+  flex: 1 0 100%;
+  display: flex;
+  align-items: center; }
+  .container > .row {
+    flex: 1 0 100%; }
+
+.register-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  .register-header h1 {
+    font-size: 48px;
+    color: #333333;
+    margin: 0; }
+  .register-header span {
+    font-size: 12px;
+    color: #555555; }
+    .register-header span a {
+      color: inherit;
+      font-weight: 600;
+      text-decoration: none; }
+.register-form {
+  margin-top: 32px; }
+  .register-form .btn.btn-primary {
+    margin-top: 2rem; }
+  .register-form small {
+    text-align: center;
+    margin-top: 1rem;
+    display: block;
+    font-size: 10px;
+    color: #333333; }
+    .register-form small a {
+      font-weight: 600;
+      text-decoration: none;
+      color: inherit; }
+.register-preferences {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  .register-preferences .remember input[type=checkbox] {
+    margin-right: .5rem; }
+  .register-preferences .remember label {
+    font-size: 12px; }
+  .register-preferences .btn-simple {
+    font-size: 12px;
+    font-weight: 600; }
+
+.input-control-square {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  color: #bfbfbf;
+  background: #f9f9f9;
+  border: 1px solid #e7e7e7;
+  border-radius: .25rem;
+  padding: 12px;
+  font-size: 16px;
+  flex: 1 1 100%; }
+  .input-control-square i {
+    margin-right: .5rem; }
+  .input-control-square input {
+    border: none;
+    background: transparent;
+    flex: 1 1 100%;
+    color: #000000; }
+    .input-control-square input:focus {
+      outline: none; }
+    .input-control-square input::placeholder {
+      color: #bfbfbf; }
+  .input-control-square + .input-control-square {
+    margin-top: 1rem; }
+
+.or-strikeout {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5px; }
+  .or-strikeout .line {
+    border-top: 1px solid #e7e7e7;
+    width: 100%;
+    -webkit-transform: translateY(25px);
+    -moz-transform: translateY(25px);
+    -ms-transform: translateY(25px);
+    -o-transform: translateY(25px);
+    transform: translateY(25px); }
+  .or-strikeout span {
+    display: flex;
+    padding: 1rem 2rem;
+    background: #FFFFFF;
+    z-index: 100; }
+
+/*# sourceMappingURL=register.component.css.map */

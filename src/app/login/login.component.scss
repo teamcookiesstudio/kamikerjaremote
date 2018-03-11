@@ -1,0 +1,130 @@
+@import "../../variables";
+
+section {
+  background: $kkr-red-gradient;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  padding: 0;
+}
+
+.card {
+  background-color: #FFFFFF;
+  width: auto;
+  padding: 2rem;
+}
+
+.container {
+  flex: 1 0 100%;
+  display: flex;
+  align-items: center;
+  & > .row {
+    flex: 1 0 100%;
+  }
+}
+
+.login {
+  &-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    h1 {
+      font-size: 48px;
+      color: #333333;
+      margin: 0;
+    }
+    span {
+      font-size: 12px;
+      color: #555555;
+      a {
+        color: inherit;
+        font-weight: 600;
+        text-decoration: none;
+      }
+    }
+  }
+  &-form {
+    margin-top: 32px;
+    .btn.btn-primary {
+      margin-top: 2rem;
+    }
+  }
+  &-preferences {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .remember {
+      input[type=checkbox] {
+        margin-right: .5rem;
+      }
+      label {
+        font-size: 12px;
+      }
+    }
+    .btn-simple {
+      font-size: 12px;
+      font-weight: 600;
+    }
+  }
+}
+
+.input-control {
+  &-square {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    color: #bfbfbf;
+    background: #f9f9f9;
+    border: 1px solid #e7e7e7;
+    border-radius: .25rem;
+    padding: 12px;
+    font-size: 16px;
+    flex: 1 1 100%;
+    i {
+      margin-right: .5rem;
+    }
+    input {
+      border: none;
+      background: transparent;
+      flex: 1 1 100%;
+      color: #000000;
+      &:focus {
+        outline: none;
+      }
+      &::placeholder {
+        color: #bfbfbf;
+      }
+    }
+    & + .input-control-square {
+      margin-top: 1rem;
+    }
+  }
+}
+
+.or-strikeout {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5px;
+  .line {
+    border-top: 1px solid #e7e7e7;
+    width: 100%;
+    -webkit-transform: translateY(25px);
+    -moz-transform: translateY(25px);
+    -ms-transform: translateY(25px);
+    -o-transform: translateY(25px);
+    transform: translateY(25px);
+  }
+  span {
+    display: flex;
+    padding: 1rem 2rem;
+    background: #FFFFFF;
+    z-index: 100;
+  }
+}
+.wave-brand {
+}
