@@ -62,6 +62,12 @@ body {
     padding: 0;
     font-weight: 300;
   }
+  &-block {
+    width: 100%;
+    &-half {
+      width: 50%;
+    }
+  }
 }
 
 .card {

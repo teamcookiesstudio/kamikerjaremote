@@ -46,6 +46,16 @@ section {
   -ms-transform: translateY(5px);
   -o-transform: translateY(5px);
   transform: translateY(5px);
+  &-red {
+    background: url("../../assets/images/wve1Copy2.svg");
+    height: 160px;
+    width: 100%;
+    -webkit-transform: translateY(25px);
+    -moz-transform: translateY(25px);
+    -ms-transform: translateY(25px);
+    -o-transform: translateY(25px);
+    transform: translateY(25px);
+  }
 }
 
 .about-point {
@@ -94,13 +104,25 @@ section {
 }
 
 .curved {
-  clip-path: url("../../assets/images/background.svg");
   background: $kkr-red-gradient;
   margin-top: 76px;
   text-align: center;
   color: #ffffff;
-  #curve_top {
-    width: 100%;
+  position: relative;
+  //#curve_top, #curve_bottom {
+  //  width: 100%;
+  //}
+  //#curve_bottom {
+  //  background: blue;
+  //}
+  &::before {
+    content: '';
+    height: 76px;
+    width: 110%;
+    display: block;
+    background-image: url("../../assets/images/curve_bottom.svg");
+    background-repeat: no-repeat;
+    background-position: top;
   }
   h2 {
     font-size: 32px;
@@ -164,4 +186,65 @@ section {
   display: flex;
   align-items: flex-end;
   overflow-y: hidden;
+}
+.footer-head {
+  font-size: 32px;
+  color: #404040;
+  text-align: center;
+  font-weight: 600;
+}
+footer {
+  color: #ffffff;
+  img {
+    width: 100%;
+    height: auto;
+  }
+  .footer-body {
+    background: $kkr-red-lighter;
+    strong {
+      font-size: 14px;
+    }
+    p {
+      font-weight: 300;
+      font-size: 12px;
+      color: #f0f0f0;
+      line-height: 1.65;
+    }
+    .col-md-4{
+      padding: 1rem;
+      &:first-child {
+        border-right: 1px solid $kkr-red;
+      }
+    }
+    .col-md-2 {
+      padding: 1rem;
+      ul {
+        list-style: none;
+        margin: .5rem 0 0;
+        padding: 0;
+        li {
+          padding: .5rem 0;
+          a {
+            color: #ffffff;
+            font-weight: 300;
+            font-size: 12px;
+            text-decoration: none;
+          }
+        }
+      }
+    }
+  }
+  .footer-footer {
+    background: #7c000f;
+    padding: .5rem 0;
+    .container {
+      padding: 0;
+      text-align: center;
+    }
+    span {
+      font-size: 12px;
+      font-weight: 300;
+      color: #f0f0f0;
+    }
+  }
 }

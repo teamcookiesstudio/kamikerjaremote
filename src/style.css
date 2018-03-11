@@ -50,6 +50,10 @@ body {
     background: transparent;
     padding: 0;
     font-weight: 300; }
+  .btn-block {
+    width: 100%; }
+    .btn-block-half {
+      width: 50%; }
 
 .card {
   border-radius: 3px;
