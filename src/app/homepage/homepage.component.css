@@ -24,25 +24,6 @@ section .container h3 {
 .search-box {
   margin-top: 5rem; }
 
-.wave-brand {
-  background: url("../../assets/images/kkrwave.svg");
-  height: 160px;
-  width: 100%;
-  -webkit-transform: translateY(5px);
-  -moz-transform: translateY(5px);
-  -ms-transform: translateY(5px);
-  -o-transform: translateY(5px);
-  transform: translateY(5px); }
-  .wave-brand-red {
-    background: url("../../assets/images/wve1Copy2.svg");
-    height: 160px;
-    width: 100%;
-    -webkit-transform: translateY(25px);
-    -moz-transform: translateY(25px);
-    -ms-transform: translateY(25px);
-    -o-transform: translateY(25px);
-    transform: translateY(25px); }
-
 .about-point {
   display: flex;
   align-items: start; }
@@ -195,5 +176,19 @@ footer {
       font-size: 12px;
       font-weight: 300;
       color: #f0f0f0; }
+
+@media only screen and (max-width: 768px) {
+  .testimonials ngx-carousel {
+    width: 200%;
+    -webkit-transform: translateX(-25%);
+    -moz-transform: translateX(-25%);
+    -ms-transform: translateX(-25%);
+    -o-transform: translateX(-25%);
+    transform: translateX(-25%); }
+
+  .footer-body .col-md-4:first-child {
+    border-right: none !important;
+    border-bottom: 1px solid #c9182c;
+    margin-bottom: 24px; } }
 
 /*# sourceMappingURL=homepage.component.css.map */

@@ -18,7 +18,7 @@ body {
   border-radius: 10rem;
   overflow: hidden;
   padding: 5px; }
-  .input-control i {
+  .input-control label {
     color: #c9182c;
     font-size: 24px; }
   .input-control input {
@@ -54,9 +54,45 @@ body {
     width: 100%; }
     .btn-block-half {
       width: 50%; }
+  .btn-simple {
+    background: transparent;
+    border: none;
+    padding: 0; }
+  .btn-facebook {
+    background: #3b5998;
+    color: #FFFFFF;
+    font-size: 16px; }
+    .btn-facebook:hover {
+      background: #344e86; }
 
 .card {
   border-radius: 3px;
   box-shadow: 0 0 40px 0 rgba(1, 1, 1, 0.05), 0 0 15px 0 rgba(1, 1, 1, 0.1); }
+  .card.shadow-heavy {
+    box-shadow: 0 20px 40px 0 rgba(1, 1, 1, 0.05), 0 10px 15px 0 rgba(1, 1, 1, 0.1); }
+
+.wave-brand {
+  background-size: cover;
+  background: url("assets/images/kkrwave.svg") no-repeat;
+  height: 140px;
+  padding: 0;
+  width: 100%;
+  -webkit-transform: translateY(5px);
+  -moz-transform: translateY(5px);
+  -ms-transform: translateY(5px);
+  -o-transform: translateY(5px);
+  transform: translateY(5px); }
+  .wave-brand-red {
+    background-image: url("assets/images/wve1Copy2.svg");
+    background-size: cover;
+    height: 0;
+    padding: 0;
+    padding-bottom: calc(15% * 3/4);
+    width: 100%;
+    -webkit-transform: translateY(25px);
+    -moz-transform: translateY(25px);
+    -ms-transform: translateY(25px);
+    -o-transform: translateY(25px);
+    transform: translateY(25px); }
 
 /*# sourceMappingURL=style.css.map */

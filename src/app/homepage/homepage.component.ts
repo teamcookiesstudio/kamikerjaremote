@@ -14,7 +14,7 @@ export class HomepageComponent implements OnInit {
 
   ngOnInit() {
     this.carouselOne = {
-      grid: {xs: 1, sm: 1, md: 4, lg: 4, all: 0},
+      grid: {xs: 3, sm: 3, md: 4, lg: 4, all: 0},
       slide: 1,
       speed: 1000,
       interval: 2000,

@@ -7,7 +7,8 @@
 
 .logo {
   padding: 0 2rem;
-  border-right: 1px solid #aa0c1d; }
+  border-right: 1px solid #aa0c1d;
+  color: #FFFFFF; }
 
 .menus {
   flex: 1 0 auto;
@@ -28,11 +29,19 @@
         padding: .5rem 1rem; }
   .menus .actions {
     display: flex;
-    align-items: center; }
+    align-items: center;
+    padding: 0 2rem;
+    color: #FFFFFF; }
     .menus .actions span {
       margin: 0 .5rem; }
     .menus .actions .btn-thin {
       color: #ffffff;
       font-size: inherit; }
+
+@media only screen and (max-width: 768px) {
+  .menus {
+    justify-content: flex-end; }
+    .menus ul {
+      display: none; } }
 
 /*# sourceMappingURL=landing-nav-bar.component.css.map */

@@ -11,6 +11,7 @@
 .logo {
   padding: 0 2rem;
   border-right: 1px solid #aa0c1d;
+  color: #FFFFFF;
 }
 
 .menus {
@@ -36,12 +37,23 @@
   .actions {
     display: flex;
     align-items: center;
+    padding: 0 2rem;
+    color: #FFFFFF;
     span {
       margin: 0 .5rem;
     }
     .btn-thin {
       color: #ffffff;
       font-size: inherit;
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .menus {
+    justify-content: flex-end;
+    ul {
+      display: none;
     }
   }
 }

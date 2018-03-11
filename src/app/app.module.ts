@@ -7,13 +7,15 @@ import { LandingNavBarComponent } from './landing-nav-bar/landing-nav-bar.compon
 import { HomepageComponent } from './homepage/homepage.component';
 import {AppRoutingModule} from './app-routing.module';
 import {NgxCarouselModule} from 'ngx-carousel';
+import { LoginComponent } from './login/login.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     LandingNavBarComponent,
-    HomepageComponent
+    HomepageComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
